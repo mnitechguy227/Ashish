@@ -16,5 +16,23 @@
     "openAccess": false,
     "publisher": "INFORMS",
     "issn": "0030-364X"
+  },
+  {
+    "title": "European Journal of Information Systems",
+    "rank": "3",
+    "field": "Information Systems",
+    "country": "UK",
+    "openAccess": false,
+    "publisher": "Taylor & Francis",
+    "issn": "0960-085X"
+  },
+  {
+    "title": "Journal of Finance",
+    "rank": "4*",
+    "field": "Finance",
+    "country": "USA",
+    "openAccess": false,
+    "publisher": "Wiley",
+    "issn": "0022-1082"
   }
 ]

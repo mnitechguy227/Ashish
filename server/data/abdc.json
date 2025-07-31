@@ -16,5 +16,23 @@
     "openAccess": true,
     "publisher": "Wiley",
     "issn": "0033-3352"
+  },
+  {
+    "title": "Tourism Management",
+    "rank": "A",
+    "field": "Tourism",
+    "country": "UK",
+    "openAccess": false,
+    "publisher": "Elsevier",
+    "issn": "0261-5177"
+  },
+  {
+    "title": "Journal of Business Ethics",
+    "rank": "A",
+    "field": "Ethics",
+    "country": "Netherlands",
+    "openAccess": false,
+    "publisher": "Springer",
+    "issn": "0167-4544"
   }
 ]

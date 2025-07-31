@@ -1,17 +1,17 @@
-# Journal Explorer
+# JournalRank Explorer
 
-This project provides a simple demo for browsing journal rankings from the ABS and ABDC lists. It contains a small Node server and a minimal React client loaded via CDN links.
+A lightweight demo application to browse mock ABS and ABDC journal rankings. The frontend is a React + Tailwind CSS single page loaded directly in the browser and the Node server only serves the JSON datasets.
 
 ## Running the Demo
 
-1. Start the server:
+1. Start the API server:
    ```bash
    node server/server.js
    ```
-   The API will run on `http://localhost:3001`.
+   The server listens on `http://localhost:3001` and exposes `/api/abs` and `/api/abdc`.
 
-2. Open `client/index.html` in a browser. The page will request data from the server and render a table of journals. Use the buttons to switch between ABS and ABDC lists and the search box to filter by title.
+2. Open `client/index.html` in your browser. You can simply double click the file or serve it with any static server. The page will fetch the mock journal lists and render the JournalRank Explorer interface.
 
-## Notes
+The interface lets you switch between ABS and ABDC tabs, filter journals by discipline, rank, publisher, country and keyword search, sort results and open stub modals for journal details and suggesting new titles.
 
-The dataset is only a placeholder with a few example journals. For a real deployment you would replace `server/data/abs.json` and `server/data/abdc.json` with full datasets and likely use a framework such as Express and a database for storage.
+The datasets in `server/data` are intentionally tiny placeholders. Replace them with full CSV exports for a real deployment.
