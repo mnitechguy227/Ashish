@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Journal of Marketing",
+    "rank": "4*",
+    "field": "Marketing",
+    "country": "USA",
+    "openAccess": false,
+    "publisher": "American Marketing Association",
+    "issn": "0022-2429"
+  },
+  {
+    "title": "Operations Research",
+    "rank": "4",
+    "field": "Operations",
+    "country": "USA",
+    "openAccess": false,
+    "publisher": "INFORMS",
+    "issn": "0030-364X"
+  }
+]

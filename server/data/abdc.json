@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Journal of Marketing",
+    "rank": "A*",
+    "field": "Marketing",
+    "country": "USA",
+    "openAccess": false,
+    "publisher": "American Marketing Association",
+    "issn": "0022-2429"
+  },
+  {
+    "title": "Public Administration Review",
+    "rank": "A",
+    "field": "Public Administration",
+    "country": "USA",
+    "openAccess": true,
+    "publisher": "Wiley",
+    "issn": "0033-3352"
+  }
+]
