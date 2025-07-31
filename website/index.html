@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Journal Rankings</title>
+<style>
+  body { font-family: Arial, sans-serif; margin: 20px; }
+  table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+  th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+  th { background-color: #f4f4f4; }
+  .tabs { margin-top: 20px; }
+  .tab { margin-right: 10px; cursor: pointer; color: blue; text-decoration: underline; }
+</style>
+</head>
+<body>
+<h1>Journal Rankings</h1>
+<div class="tabs">
+  <span class="tab" onclick="loadList('abs')">ABS List</span>
+  <span class="tab" onclick="loadList('abdc')">ABDC List</span>
+</div>
+<table id="journal-table">
+  <thead>
+    <tr><th>Journal</th><th>Ranking</th></tr>
+  </thead>
+  <tbody></tbody>
+</table>
+<script>
+async function loadList(type) {
+  const response = await fetch(`data/${type}.json`);
+  const data = await response.json();
+  const tbody = document.querySelector('#journal-table tbody');
+  tbody.innerHTML = '';
+  data.forEach(item => {
+    const row = document.createElement('tr');
+    row.innerHTML = `<td>${item.journal}</td><td>${item.ranking}</td>`;
+    tbody.appendChild(row);
+  });
+}
+// Load ABS list by default
+loadList('abs');
+</script>
+</body>
+</html>
