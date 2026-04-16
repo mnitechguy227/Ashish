@@ -3,13 +3,32 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Journal Explorer</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
-  <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+  <title>Journal Index Checker</title>
+  <link rel="stylesheet" href="/assets/styles.css" />
 </head>
-<body class="bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100">
-  <div id="root" class="p-4"></div>
-  <script src="main.js"></script>
+<body>
+  <header class="topbar">
+    <div class="container nav-wrap">
+      <h1>Journal Index Checker</h1>
+      <nav class="nav-links">
+        <a href="#/">Home</a>
+        <a href="#/results">Search</a>
+        <a href="#/compare">Compare</a>
+        <a href="#/saved">Saved</a>
+        <a href="#/about">Methodology</a>
+        <a href="#/admin">Admin</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container" id="app"></main>
+
+  <template id="disclaimer-template">
+    <section class="card disclaimer">
+      <strong>Guidance Disclaimer:</strong> This tool is for guidance only. Always verify final journal ranking/indexing from official ABDC, ABS/AJG, Scopus (or equivalent official) sources before submission decisions.
+    </section>
+  </template>
+
+  <script src="/main.js"></script>
 </body>
 </html>
