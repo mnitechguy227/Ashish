@@ -1,0 +1,122 @@
+{
+  "note": "DEMO ONLY DATA - DO NOT USE FOR FINAL PUBLICATION DECISIONS",
+  "journals": [
+    {
+      "canonical_title": "Journal of Operations Management",
+      "alt_titles": "JOM",
+      "issn": "0272-6963",
+      "eissn": "1873-1317",
+      "publisher": "Elsevier",
+      "subject_area": "Operations Management",
+      "abdc": {
+        "source_title": "Journal of Operations Management",
+        "field_code": "IBUS",
+        "abdc_rank": "A*",
+        "source_version": "DEMO-2026",
+        "source_file_name": "abdc_demo.csv",
+        "source_url": "https://example.org/abdc-demo",
+        "verified_date": "2026-04-01"
+      },
+      "abs": {
+        "source_title": "Journal of Operations Management",
+        "abs_rating": "4",
+        "subject_group": "Operations and Technology Management",
+        "source_version": "DEMO-2026",
+        "source_file_name": "abs_demo.csv",
+        "source_url": "https://example.org/abs-demo",
+        "verified_date": "2026-04-01"
+      },
+      "scopus": {
+        "source_title": "Journal of Operations Management",
+        "scopus_status": "Indexed",
+        "active_or_discontinued": "Active",
+        "coverage_note": "Coverage in demo dataset",
+        "citescore_optional": "13.5",
+        "sjr_optional": "4.11",
+        "snip_optional": "3.2",
+        "source_version": "DEMO-2026",
+        "source_file_name": "scopus_demo.csv",
+        "source_url": "https://example.org/scopus-demo",
+        "verified_date": "2026-04-01"
+      }
+    },
+    {
+      "canonical_title": "International Journal of Production Economics",
+      "alt_titles": "IJPE",
+      "issn": "0925-5273",
+      "eissn": "1873-7579",
+      "publisher": "Elsevier",
+      "subject_area": "Supply Chain",
+      "abdc": {
+        "source_title": "International Journal of Production Economics",
+        "field_code": "OPMN",
+        "abdc_rank": "A",
+        "source_version": "DEMO-2026",
+        "source_file_name": "abdc_demo.csv",
+        "source_url": "https://example.org/abdc-demo",
+        "verified_date": "2026-04-01"
+      },
+      "abs": {
+        "source_title": "International Journal of Production Economics",
+        "abs_rating": "3",
+        "subject_group": "Operations and Technology Management",
+        "source_version": "DEMO-2026",
+        "source_file_name": "abs_demo.csv",
+        "source_url": "https://example.org/abs-demo",
+        "verified_date": "2026-04-01"
+      },
+      "scopus": {
+        "source_title": "International Journal of Production Economics",
+        "scopus_status": "Indexed",
+        "active_or_discontinued": "Active",
+        "coverage_note": "Coverage in demo dataset",
+        "citescore_optional": "12.7",
+        "sjr_optional": "3.01",
+        "snip_optional": "2.8",
+        "source_version": "DEMO-2026",
+        "source_file_name": "scopus_demo.csv",
+        "source_url": "https://example.org/scopus-demo",
+        "verified_date": "2026-04-01"
+      }
+    },
+    {
+      "canonical_title": "Journal of Small Business Management",
+      "alt_titles": "",
+      "issn": "0047-2778",
+      "eissn": "1540-627X",
+      "publisher": "Wiley",
+      "subject_area": "Entrepreneurship",
+      "abdc": {
+        "source_title": "Journal of Small Business Management",
+        "field_code": "ENTR",
+        "abdc_rank": "A",
+        "source_version": "DEMO-2026",
+        "source_file_name": "abdc_demo.csv",
+        "source_url": "https://example.org/abdc-demo",
+        "verified_date": "2026-04-01"
+      },
+      "abs": {
+        "source_title": "Journal of Small Business Management",
+        "abs_rating": "2",
+        "subject_group": "Entrepreneurship and Small Business",
+        "source_version": "DEMO-2026",
+        "source_file_name": "abs_demo.csv",
+        "source_url": "https://example.org/abs-demo",
+        "verified_date": "2026-04-01"
+      },
+      "scopus": {
+        "source_title": "Journal of Small Business Management",
+        "scopus_status": "Indexed",
+        "active_or_discontinued": "Discontinued",
+        "coverage_note": "Demo status only",
+        "citescore_optional": "4.9",
+        "sjr_optional": "1.2",
+        "snip_optional": "1.5",
+        "source_version": "DEMO-2026",
+        "source_file_name": "scopus_demo.csv",
+        "source_url": "https://example.org/scopus-demo",
+        "verified_date": "2026-04-01"
+      }
+    }
+  ]
+}
